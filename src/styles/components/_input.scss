@@ -1,0 +1,18 @@
+.input {
+  border-radius: 3px;
+  border: 1px solid $input-border-color;
+  color: $input-color;
+  font-family: Roboto, sans-serif;
+  outline: none;
+  transition: box-shadow 0.3s;
+
+  &:focus {
+    box-shadow: 0 0 0 2px $input-box-shadow-color;
+  }
+
+  &::placeholder {
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.5px;
+    color: $input-placeholder-color;
+  }
+}

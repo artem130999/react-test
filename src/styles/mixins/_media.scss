@@ -1,0 +1,14 @@
+$bp-xs: 575px;
+$bp-sm: 576px;
+
+@mixin media-xs--max {
+  @media screen and(max-width: $bp-xs) {
+    @content;
+  }
+}
+
+@mixin media-sm--min {
+  @media screen and(min-width: $bp-sm) {
+    @content;
+  }
+}
